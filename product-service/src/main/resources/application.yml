@@ -1,0 +1,17 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: product-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/tb_product?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8888/eureka
