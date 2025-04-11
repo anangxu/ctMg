@@ -1,6 +1,5 @@
 package com.example.productclient.Client;
 import com.example.productclient.module.Product;
-import com.example.productclient.module.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -12,3 +12,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8888/eureka/  # 确保 Eureka Server 地址正确
+feign:
+  hystrix:
+  enabled: true #在 feign 中开启 hystrix 熔断机制
